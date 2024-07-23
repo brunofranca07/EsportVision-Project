@@ -29,7 +29,6 @@ body{
 }
 
 header{
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.387);
     margin-bottom: 10px;
     width: 100vw;
 }
@@ -86,7 +85,6 @@ ul li:hover{
     width: 100vw;
     height: 24vh;
     display: block;
-    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.486);
 }
 
 menu ul li a{
