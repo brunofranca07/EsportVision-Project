@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu login</title>
+    <!--Simbolos-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--Estilos-->
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+
+</head>
+<body>
+    <!--Login-->
+    <div id="login"> 
+        <div id="part1">
+            <h1>EsportVision</h1>
+            <p id="logTxt">Faça seu login</p>
+            <!--Redes Sociais-->
+            <div id="redes">
+                <p> <a href="#"> <i style="color: white;" class="fa fa-google"></i> </a></p>
+                <p> <a href="#"> <i style="color: white;" class="fa fa-linkedin"></i> </a></p>
+                <p> <a href="#"> <i style="color: white;" class="fa fa-facebook-f"></i> </a></p>
+            </div>
+        </div>
+        <!--Dados de Login-->
+        <div id="part1">
+            <label for=""><p><i class="material-symbols-outlined">account_circle</i> <input type="text" name="login" id="txtlogin" required placeholder="digite seu nome de usuário"></p></label><br>
+            <label for=""><p style="text-indent: -10px;"><i class="material-symbols-outlined">key</i> <input type="password" name="senha" id="txtsenha" required placeholder="digite sua senha"></p></label><br>
+            <!--Botões-->
+            <input type="submit" id="btEnviar" value="Entrar">
+            <div id="txt"><a href="#">Esqueceu a senha?</a></div>
+            <div id="txt"><a href="#" onclick="cadastrar()">Não está cadastrado?</a></div>
+        </div>
+        
+    </div>
+    <div id="login" class="login2"> 
+        <div id="part2">
+            <h1>EsportVision</h1>
+            <p id="logTxt">Faça seu Cadastro</p>
+            <!--Redes Sociais-->
+            <div id="redes">
+                <p> <a href="#"> <i style="color: white;" class="fa fa-google"></i> </a></p>
+                <p> <a href="#"> <i style="color: white;" class="fa fa-linkedin"></i> </a></p>
+                <p> <a href="#"> <i style="color: white;" class="fa fa-facebook-f"></i> </a></p>
+            </div>
+        </div>
+        <!--Dados de Login-->
+        <div id="part2">
+            <label for=""><p><i class="material-symbols-outlined">account_circle</i> <input type="text" name="login" id="txtlogin" required placeholder="digite seu nome de usuário"></p></label><br>
+            <label for=""><p style="text-indent: -10px;"><i class="material-symbols-outlined">key</i> <input type="password" name="senha" id="txtsenha" required placeholder="digite sua nova senha"></p></label><br>
+            <!--Botões-->
+            <input type="submit" id="btEnviar" value="Cadastrar">
+            <div id="txt"><a href="#" onclick="login()">Já está cadastrado?</a></div>
+        </div>
+        
+    </div>
+
+<script src="script/script.js"></script>
+</body>
+</html>

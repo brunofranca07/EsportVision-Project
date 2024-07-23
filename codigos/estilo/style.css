@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "sportypo" ;
+    src: url(Sportypo-Reguler-Demo.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login{
+    color: white;
+    margin-bottom: 0px;
+    transform: translate(-300%);
+
+}
+#login:hover{
+    background-color: red;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.705);
+    border-radius: 15px;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(166, 1, 1);
+}
+
+header{
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.387);
+    margin-bottom: 10px;
+    width: 100vw;
+}
+
+header h1{
+    text-align: center;
+    background-color: rgb(166, 1, 1);
+    padding: 15px 0px 40px 0px;
+    width: 100vw;
+    font-family: "sportypo", arial;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.442);
+}
+
+header p{
+    background-color: rgb(166, 1, 1);
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-size: 0.8em;
+    width: 100vw;
+    padding-bottom:15px;
+}
+
+li{
+    list-style-type: none;
+    padding: 5px;
+    width: 100vw;
+}
+
+#burguer{
+    color: white;
+    text-align: center;
+    background-color: rgb(166, 1, 1);
+    width: 100vw;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    background-color: red;
+}
+
+
+ul li:hover{
+    background-color: red;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.205);
+}
+
+#itens{
+    text-align: center;
+    background-color: rgb(166, 1, 1);
+    width: 100vw;
+    min-height: 28vh;
+    display: block;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.486);
+}
+
+menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#futebol{
+    min-height: 60vh;
+    width: 100vw;
+    background-image: url(../imagens/futebol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.419);
+}
+
+#nba{
+    min-height: 50vh;
+    width: 100vw;
+    background-image: url(../imagens/nba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 10px 0px ;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.419);
+}
+
+#olimpiadas{
+    min-height: 30vh;
+    width: 100vw;
+    background-image: url(../imagens/olimpiadas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin: 10px 0px 10px 0px ;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.419);
+}
+
+#counter-strike{
+    min-height: 50vh;
+    width: 100vw;
+    background-image: url(../imagens/counter-strike.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 10px 0px ;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.419);
+}
+
+#lol{
+    min-height: 55vh;
+    width: 100vw;
+    background-image: url(../imagens/lol.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0px 10px 0px ;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.419);
+}   
+
+.titulo{
+    text-align: center;
+    font-family: sportypo, arial;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.482);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.txt{
+    background-color: rgba(253, 0, 0, 0.352);
+    max-width: 80%;
+    min-width: 40%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.328);
+}
+
+.txt p{
+    text-align: justify;
+    color: white;
+    text-indent: 5px;
+}
+
+.txt h2{
+    text-align: left;
+    color:white;
+}
+
+.txt a{
+    text-decoration: underline;
+    color: white;
+}
+
+.txt a:hover{
+    cursor:pointer;
+    color: black;
+}
+
+h1#rede-title{
+    background-color: rgb(166, 1, 1);
+    color: white;
+    padding: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.409);
+}
+
+#redes{
+    background-color: rgb(166, 1, 1);
+    width: 100vw;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.554);
+}
+
+#redes p{
+    padding-bottom: 8px;
+}
+
+#redes p a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#redes p i{
+    padding-left: 10px;
+}
+
+footer{
+    background-color: black;
+    width: 100vw;
+}
+
+footer p{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p a:hover{
+    color: rgb(255, 75, 105);
+}

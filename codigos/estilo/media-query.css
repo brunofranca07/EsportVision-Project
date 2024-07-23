@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    body{
+        background-color: rgb(166,1,1);
+    }
+
+    #login{
+        transform: translate(2000%);
+    }
+    
+    header p{
+        display: none;
+        padding: 0;
+    }
+    header h1{
+        padding-bottom: 4px;
+    }
+    #txtmenu{
+        position: absolute;
+    }
+    #burguer{
+        text-align: center;
+        width: 200px;
+        transform: translate(0%,-100%);
+    }
+    #itens{
+        text-align: left;
+        padding: 5px;
+        width: 200px;
+        height: 100vh;
+        transform: translate(0%,-7%);
+    }
+    li{
+        width: 200px;
+    }
+    ul li:hover{
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.205);
+    }
+
+    #futebol{
+        border-radius: 10px;
+        height: 400px;
+        width: 50vw;
+        margin-left: 5px;
+        float: left;
+    }
+    #nba{
+        border-radius: 10px;
+        height: 400px;
+        width: 45vw;
+        float: right;
+    }
+    #olimpiadas{
+        border-radius: 10px;
+        height: 400px;
+        width: 50vw;
+        margin-left: 5px;
+        float: left;
+    }
+    #counter-strike{
+        border-radius: 10px;
+        height: 400px;
+        width: 45vw;
+        float: right;
+    }
+    #lol{
+        border-radius: 10px;
+        width: 100vw;
+        float: left;
+        margin: 8px;
+    }
+    #redes{
+        width: 100vw;
+        float: left;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.754);
+    }
+    
+    footer{
+        width: 100vw;
+        float: left;
+    }
+}
+
+@media screen and (min-width:992px){
+
+    header p{
+        display: none;
+    }
+
+    header h1{
+        padding-bottom: 4px;
+    }
+
+    #login{
+        transform: translate(-1300%);
+    }
+
+
+    #burguer{
+        display: none;
+    }
+    #itens{
+        display: flex;
+    }
+    menu ul li{
+        display: inline-block;
+    }
+}   
