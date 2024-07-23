@@ -15,7 +15,6 @@
     color: white;
     margin-bottom: 0px;
     transform: translate(-150%);
-    width: 30px;
 }
 #login:hover{
     background-color: red;
