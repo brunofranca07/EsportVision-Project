@@ -112,8 +112,8 @@ label{
 }
 
 .login2{
-    position: absolute;
-    transform: translateY(-150%);
+    position: relative;
+    transform: translateY(-125%);
     box-shadow: none;
-    display: block;
+    display: block;;
 }
