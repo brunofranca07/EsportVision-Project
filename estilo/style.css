@@ -84,7 +84,7 @@ ul li:hover{
     text-align: center;
     background-color: rgb(166, 1, 1);
     width: 100vw;
-    min-height: 28vh;
+    height: 24vh;
     display: block;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.486);
 }
