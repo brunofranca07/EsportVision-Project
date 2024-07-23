@@ -32,7 +32,7 @@
             <!--Botões-->
             <input type="submit" id="btEnviar" value="Entrar">
             <div id="txt"><a href="#">Esqueceu a senha?</a></div>
-            <div id="txt"><a href="#" onclick="cadastrar()">Não está cadastrado?</a></div>
+            <div id="txt"><input id="loginBttn" onclick="cadastrar()" type="button" value="Não está cadastrado?"></div>
         </div>
         
     </div>
@@ -54,7 +54,7 @@
             <label for=""><p style="text-indent: -10px;"><i class="material-symbols-outlined">key</i> <input type="password" name="senha" id="txtsenha" required placeholder="digite sua nova senha"></p></label><br>
             <!--Botões-->
             <input type="submit" id="btEnviar" value="Cadastrar">
-            <div id="txt"><a href="#" onclick="login()">Já está cadastrado?</a></div>
+            <div id="txt"><input type="button" id="loginBttn" onclick="login()" value="Já está cadastrado?"></div>
         </div>
         
     </div>

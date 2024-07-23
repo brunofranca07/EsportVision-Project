@@ -118,3 +118,13 @@ label{
     box-shadow: none;
     display: block;;
 }
+
+#loginBttn{
+    background-color: rgb(166,1,1);
+    border: none;
+    color: white;
+}
+#loginBttn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
