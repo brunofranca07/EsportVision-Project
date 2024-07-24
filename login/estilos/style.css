@@ -62,11 +62,11 @@ label{
     color: white;
 }
 
-#part2 label p i{
+#part2 label i{
     transform: translate(0%,30%);
 }
 
-#txtlogin{
+.txtlogin{
     margin-right: 20px;
     margin-bottom: 10px;
     border: none;
@@ -76,7 +76,7 @@ label{
     padding: 5px;
 }
 
-#txtsenha{
+.txtsenha{
     border: none;
     border-radius: 10px;
     height: 20px;
@@ -84,7 +84,7 @@ label{
     padding: 5px;
 }
 
-#btEnviar{
+.btEnviar{
     margin: 10px;
     background-color: white;
     border: none;
@@ -95,7 +95,7 @@ label{
     color: black;
 }
 
-#btEnviar:hover{
+.btEnviar:hover{
     cursor:pointer;
     background-color: rgb(166,1,1);
     color: white;

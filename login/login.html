@@ -7,17 +7,20 @@
     <!--Simbolos-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    
     <!--Estilos-->
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 
 </head>
 <body>
+
     <!--Login-->
     <div id="login"> 
         <div id="part2">
             <h1>EsportVision</h1>
             <p id="logTxt">Faça seu login</p>
+
             <!--Redes Sociais-->
             <div id="redes">
                 <p> <a href="#"> <i style="color: white;" class="fa fa-google"></i> </a></p>
@@ -25,22 +28,27 @@
                 <p> <a href="#"> <i style="color: white;" class="fa fa-facebook-f"></i> </a></p>
             </div>
         </div>
+
         <!--Dados de Login-->
         <div id="part2">
-            <label for=""><p><i class="material-symbols-outlined">account_circle</i> <input type="text" name="login" id="txtlogin" required placeholder="digite seu nome de usuário"></p></label><br>
-            <label for=""><p style="text-indent: -10px;"><i class="material-symbols-outlined">key</i> <input type="password" name="senha" id="txtsenha" required placeholder="digite sua senha"></p></label><br>
+            <!--Caixa de username-->
+            <label for="txtlogin1"><i class="material-symbols-outlined">account_circle</i> <input type="text" name="login" class="txtlogin" id="txtlogin1" required placeholder="digite seu nome de usuário"></label><br>
+            <!--Senha-->
+            <label for="txtsenha1"><p style="text-indent: -10px;"><i class="material-symbols-outlined">key</i> <input type="password" name="senha" class="txtsenha" id="txtsenha1" required placeholder="digite sua senha"></p></label><br>
+            
             <!--Botões-->
-            <input type="submit" id="btEnviar" value="Entrar">
+            <input type="submit" class="btEnviar" value="Entrar" onclick="entrar()">
             <div id="txt"><a href="#">Esqueceu a senha?</a></div>
             <div id="txt"><a class="loginBttn" onclick="cadastrar()">Não tem cadastro?</a></div>
         </div>
         
     </div>
-    <!--Dados de Cadastro-->
+    <!--Cadastro-->
     <div id="login" class="login2"> 
         <div id="part2">
             <h1>EsportVision</h1>
             <p id="logTxt">Faça seu Cadastro</p>
+            
             <!--Redes Sociais-->
             <div id="redes">
                 <p> <a href="#"> <i style="color: white;" class="fa fa-google"></i> </a></p>
@@ -48,12 +56,16 @@
                 <p> <a href="#"> <i style="color: white;" class="fa fa-facebook-f"></i> </a></p>
             </div>
         </div>
-        <!--Dados de Login-->
+
+        <!--Dados de Cadastro-->
         <div id="part2">
-            <label for=""><p><i class="material-symbols-outlined">account_circle</i> <input type="text" name="login" id="txtlogin" required placeholder="digite seu nome de usuário"></p></label><br>
-            <label for=""><p style="text-indent: -10px;"><i class="material-symbols-outlined">key</i> <input type="password" name="senha" id="txtsenha" required placeholder="digite sua nova senha"></p></label><br>
+            <!--Caixa de username-->
+            <label for="txtlogin2"><i class="material-symbols-outlined">account_circle</i> <input type="text" name="login" class="txtlogin" id="txtlogin2" required placeholder="digite seu nome de usuário"></label><br>
+            <!--Senha-->
+            <label for="txtsenha2"><p style="text-indent: -10px;"><i class="material-symbols-outlined">key</i> <input type="password" name="senha" class="txtsenha" id="txtsenha2" required placeholder="digite sua nova senha"></p></label><br>
+
             <!--Botões-->
-            <input type="submit" id="btEnviar" value="Cadastrar">
+            <input type="submit" class="btEnviar" value="Cadastrar" onclick="cadastro()">
             <div id="txt"><a class="loginBttn" onclick="login()">Já tem cadastro?</a></div>
         </div>
         
