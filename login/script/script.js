@@ -36,6 +36,7 @@ function entrar(){
     }
     else{
         window.alert(`Bem-vindo(a) novamente, ${nome1}!`)
+        window.location.href="../../index.html"
     }
 }
 
@@ -53,5 +54,6 @@ function cadastro(){
     }
     else{
     window.alert(`Você foi cadastrado! Seja Bem-vindo(a), ${nome2}!`)  
+    login2.style.display='none';
     }
 }
