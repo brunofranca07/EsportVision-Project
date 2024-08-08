@@ -36,7 +36,7 @@ function entrar(){
     }
     else{
         window.alert(`Bem-vindo(a) novamente, ${nome1}!`)
-        window.location.href="../index.html"
+        window.location.href="https://brunofranca07.github.io/EsportVision-Project/index.html"
     }
 }
 
